@@ -8,3 +8,9 @@ p "Enter at least 2 values, separated by spaces:"
 user_string = gets.chomp
 
 user_numbers = user_string.split
+
+array = user_numbers.reverse
+
+arr = array.inspect
+
+puts arr
